@@ -27,25 +27,24 @@
 
 .logo {
     display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.3s ease;
 }
 
-.logoText {
-    font-size: 1.8rem;
-    font-weight: 800;
-    background: linear-gradient(135deg, #8B5CF6, #EC4899);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.logo:hover {
+    transform: scale(1.05);
 }
 
-.logoSubtext {
-    font-size: 0.7rem;
-    color: #6D28D9;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.logoImage {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.navbar.scrolled .logoImage {
+    height: 40px;
 }
 
 .navLinks {
@@ -144,12 +143,12 @@
 }
 
 @media (max-width: 480px) {
-    .logoText {
-        font-size: 1.4rem;
+    .logoImage {
+        height: 40px;
     }
 
-    .logoSubtext {
-        font-size: 0.6rem;
+    .navbar.scrolled .logoImage {
+        height: 35px;
     }
 
     .navLinks {

@@ -32,10 +32,13 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
         >
             <div className={styles.container}>
-                <div className={styles.logo}>
-                    <span className={styles.logoText}>REDIX</span>
-                    <span className={styles.logoSubtext}>Digital Solutions</span>
-                </div>
+                <a href="#home" className={styles.logo}>
+                    <img
+                        src={`${process.env.PUBLIC_URL}/redix_logo.png`}
+                        alt="REDIX Digital Solutions"
+                        className={styles.logoImage}
+                    />
+                </a>
 
                 <div className={`${styles.navLinks} ${mobileMenu ? styles.active : ''}`}>
                     {navItems.map((item, index) => (

@@ -42,26 +42,20 @@
 
 .logo {
     display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-    margin-bottom: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
 }
 
-.logoText {
-    font-size: 2rem;
-    font-weight: 800;
-    background: linear-gradient(135deg, #8B5CF6, #EC4899);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.logoImage {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
 }
 
-.logoSubtext {
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.7);
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.logoImage:hover {
+    transform: scale(1.05);
+    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(139, 92, 246, 0.5));
 }
 
 .tagline {
@@ -196,6 +190,10 @@
     .grid {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .logoImage {
+        height: 50px;
     }
 
     .bottom {

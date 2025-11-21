@@ -7,7 +7,7 @@ const Packages = () => {
     const packages = [
         {
             name: 'BASIC',
-            price: '400',
+            price: '399',
             popular: false,
             features: [
                 'Gestionnaire de publicités professionnel pour un ciblage professionnel',
@@ -21,7 +21,7 @@ const Packages = () => {
         },
         {
             name: 'MOST POPULAR',
-            price: '600',
+            price: '599',
             popular: true,
             bonus: 'FREE Professional Website Included',
             features: [
@@ -37,7 +37,7 @@ const Packages = () => {
         },
         {
             name: 'ULTIMATE',
-            price: '850',
+            price: '859',
             popular: false,
             features: [
                 'Gestionnaire de publicités professionnel',

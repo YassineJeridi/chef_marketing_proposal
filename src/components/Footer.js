@@ -52,8 +52,11 @@ const Footer = () => {
                 <div className={styles.grid}>
                     <div className={styles.column}>
                         <div className={styles.logo}>
-                            <span className={styles.logoText}>REDIX</span>
-                            <span className={styles.logoSubtext}>Digital Solutions</span>
+                            <img
+                                src={`${process.env.PUBLIC_URL}/redix_logo.png`}
+                                alt="REDIX Digital Solutions"
+                                className={styles.logoImage}
+                            />
                         </div>
                         <p className={styles.tagline}>Your Growth, Our Strategy</p>
                         <p className={styles.description}>
