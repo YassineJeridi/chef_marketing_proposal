@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chef_marketing_proposal/static/css/main.8d3c3228.css",
-    "main.js": "/chef_marketing_proposal/static/js/main.83390642.js",
+    "main.css": "/chef_marketing_proposal/static/css/main.392818fc.css",
+    "main.js": "/chef_marketing_proposal/static/js/main.3a0e1d3b.js",
     "static/js/453.a085f289.chunk.js": "/chef_marketing_proposal/static/js/453.a085f289.chunk.js",
     "index.html": "/chef_marketing_proposal/index.html",
-    "main.8d3c3228.css.map": "/chef_marketing_proposal/static/css/main.8d3c3228.css.map",
-    "main.83390642.js.map": "/chef_marketing_proposal/static/js/main.83390642.js.map",
+    "main.392818fc.css.map": "/chef_marketing_proposal/static/css/main.392818fc.css.map",
+    "main.3a0e1d3b.js.map": "/chef_marketing_proposal/static/js/main.3a0e1d3b.js.map",
     "453.a085f289.chunk.js.map": "/chef_marketing_proposal/static/js/453.a085f289.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d3c3228.css",
-    "static/js/main.83390642.js"
+    "static/css/main.392818fc.css",
+    "static/js/main.3a0e1d3b.js"
   ]
 }
