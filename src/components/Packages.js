@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCheck, FaCrown, FaStar } from 'react-icons/fa';
+import { FaCheck, FaCrown, FaStar, FaServer } from 'react-icons/fa';
 import styles from '../styles/Packages.module.css';
 
 const Packages = () => {
@@ -127,6 +127,36 @@ const Packages = () => {
                         </motion.div>
                     ))}
                 </div>
+
+                {/* Hosting Information */}
+                <motion.div
+                    className={styles.hostingInfo}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                >
+                    <div className={styles.hostingIcon}>
+                        <FaServer />
+                    </div>
+                    <div className={styles.hostingContent}>
+                        <h4 className={styles.hostingTitle}>Website Hosting</h4>
+                        <p className={styles.hostingDescription}>
+                            Website hosting is not included in the packages above
+                        </p>
+                        <div className={styles.hostingPricing}>
+                            <div className={styles.hostingOption}>
+                                <span className={styles.hostingPrice}>30 TND</span>
+                                <span className={styles.hostingPeriod}>/ month</span>
+                            </div>
+                            <span className={styles.hostingOr}>or</span>
+                            <div className={styles.hostingOption}>
+                                <span className={styles.hostingPrice}>199 TND</span>
+                                <span className={styles.hostingPeriod}>/ year</span>
+                                <span className={styles.hostingSave}>Save 17%</span>
+                            </div>
+                        </div>
+                    </div>
+                </motion.div>
 
                 <motion.div
                     className={styles.cta}

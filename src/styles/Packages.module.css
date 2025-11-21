@@ -332,3 +332,138 @@
         padding: 3rem 1.5rem;
     }
 }
+
+.hostingInfo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(139, 92, 246, 0.3);
+    border-radius: 20px;
+    padding: 2.5rem;
+    margin: 3rem 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hostingIcon {
+    font-size: 3rem;
+    color: #8B5CF6;
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(139, 92, 246, 0.15);
+    border-radius: 20px;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.hostingContent {
+    flex: 1;
+}
+
+.hostingTitle {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.hostingDescription {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.hostingPricing {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.hostingOption {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.hostingPrice {
+    font-size: 2rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hostingPeriod {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+}
+
+.hostingOr {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hostingSave {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    background: linear-gradient(135deg, #10B981, #059669);
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .hostingInfo {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1.5rem;
+    }
+
+    .hostingIcon {
+        width: 70px;
+        height: 70px;
+        font-size: 2.5rem;
+    }
+
+    .hostingPricing {
+        justify-content: center;
+    }
+
+    .hostingPrice {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hostingPricing {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .hostingOr {
+        display: none;
+    }
+
+    .hostingSave {
+        position: static;
+        margin-top: 0.5rem;
+        display: inline-block;
+    }
+}
