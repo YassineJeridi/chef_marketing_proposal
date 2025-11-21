@@ -1,0 +1,231 @@
+create a marketing proposal for a chef .
+his request was about showing his plates and authenticity , uniquness and iconic side of them with all the plate details 
+the page contains 
+
+navbar : 
+
+Home AboutREDIX why us MarketAnalysis Strategy Packages Contact
+
+
+
+Hero :
+
+motivational sentence animated and attractive
+
+
+
+why us : 
+what we do 
+
+
+
+
+MarketAnalysis : 
+
+chart and market analysis 
+
+do a market research about people who create  this type of videos that focus on plates and show how to prepare them and make them looks so good ( do a reach in tunisia and world wide )
+
+do also the SWOT Analysis
+
+
+
+
+
+
+
+
+
+Marketing Strategy : 
+
+we will be posting in 3 differant social media platforms 
+
+tikotk / facebook / instagram 
+
+  Meta Ads Strategy : 
+
+  we will be using some advanced settings for social media and ads compains
+
+
+
+Packages : 
+
+1 : 
+
+BASIC
+Gestionnaire de publicités professionnel pour un siblage professionelle 
+1 session de tournage vidéo
+4 vidéos avec montage professionelle
+Création de feuille de route de contenu
+Sponsoring Meta Ads 20$
+Développement de stratégie marketing
+Analyse des horaires de publication optimaux
+
+prix 400 TND
+
+
+
+
+
+2 : 
+
+
+MOST POPLUAR
+Gestionnaire de publicités professionnel
+1 session de tournage vidéo
+6 vidéos avec montage professionelle
+Création de feuille de route de contenu
+Sponsoring Meta Ads 40$
+Développement de stratégie marketing
+Analyse des horaires de publication optimaux
+Surveillance et reporting des réseaux sociaux
+
+prix 600 TND
+
+
+
+
+
+
+
+
+
+3 : 
+
+ULTIMATE 
+Gestionnaire de publicités professionnel
+2 session de tournage vidéo
+10 vidéos avec montage professionelle
+Création de feuille de route de contenu
+Sponsoring Meta Ads 60$
+Scripting + idées de vidéos (guidance Redix)
+Téléchargement de contenu et gestion des réseaux sociaux
+Vous répondez uniquement aux messages et commentaires
+Développement de stratégie marketing
+Analyse des horaires de publication optimaux
+Surveillance et reporting des réseaux sociaux
+
+prix 850 TND
+
+
+
+
+
+For the most popular package we offre FREE website for more reach and profesional you can list all your informations 
+
+we have 20% OFF for all those package for the first month of the subscription 
+
+
+
+
+
+
+call to action 
+
+
+
+
+
+
+Contact
+
+
+
+Redix Digital Solutions logo
+
+Redix
+
+Digital Solutions
+
+Your Growth, Our Strategy
+
+
+
+Redix Digital Solution helps brands grow with tailored digital strategies, creative content, and innovative technology that deliver measurable results.
+
+
+
+Follow Us
+
+Contact Information
+
+Smart Technopark Manouuba, Tunisia
+
+contact@redixsolutions.pro
+
+redixsolutions.pro
+
++216 92 861 655
+
+Services
+
+Social Media Marketing
+
+Branding & Design
+
+Content Creation
+
+Web & Mobile Development
+
+Digital Advertising
+
+SEO Optimization
+
+Event Coverage
+
+Video Production
+
+Quick Links
+
+About Us
+
+Portfolio
+
+Market Analysis
+
+Strategy
+
+Packages
+
+Main Website
+
+© 2025 Redix Digital Solutions. All rights reserved.
+
+
+
+Prepared for professional chef 
+
+
+
+
+
+
+
+create this poposal make it attractive design modern and responsive for the mobile devices 
+
+don't use a lot of content and use valuable ; us attractive words , make everything clear for the client
+
+use animation to enhance the user exeperaince 
+
+
+
+
+
+
+
+
+USE MODULARE CSS FOR all the components 
+
+
+
+
+
+give me the full code of all files 
+
+
+
+
+
+
+
+give me step by step how to setup this project from the react project creation
