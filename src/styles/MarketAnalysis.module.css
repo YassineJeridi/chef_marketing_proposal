@@ -1,0 +1,358 @@
+.market {
+    padding: 6rem 2rem;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: #1F2937;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.title span {
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #6B7280;
+}
+
+.chartsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.chartCard {
+    background: #F9FAFB;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(139, 92, 246, 0.08);
+    border: 1px solid rgba(139, 92, 246, 0.1);
+}
+
+.chartTitle {
+    font-size: 1.5rem;
+    color: #1F2937;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.chartWrapper {
+    height: 300px;
+    margin-bottom: 1rem;
+}
+
+.chartNote {
+    font-size: 0.9rem;
+    color: #6B7280;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.creatorsSection {
+    margin-bottom: 4rem;
+    padding: 3rem;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(236, 72, 153, 0.05));
+    border-radius: 25px;
+    border: 2px solid rgba(139, 92, 246, 0.1);
+}
+
+.creatorsTitle {
+    text-align: center;
+    font-size: 2rem;
+    color: #1F2937;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.titleIcon {
+    font-size: 2.5rem;
+}
+
+.creatorsSubtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #6B7280;
+    margin-bottom: 3rem;
+}
+
+.creatorsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.creatorCard {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(139, 92, 246, 0.15);
+    transition: all 0.3s ease;
+}
+
+.creatorCard:hover {
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.2);
+    border-color: rgba(139, 92, 246, 0.3);
+}
+
+.creatorHeader {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(139, 92, 246, 0.1);
+}
+
+.creatorName {
+    font-size: 1.4rem;
+    color: #1F2937;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.creatorPlatform {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #8B5CF6;
+    background: rgba(139, 92, 246, 0.1);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.creatorStats {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.creatorStat {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #374151;
+    font-weight: 500;
+}
+
+.statIcon {
+    font-size: 1.2rem;
+}
+
+.creatorDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.creatorDetails p {
+    font-size: 0.95rem;
+    color: #4B5563;
+    line-height: 1.6;
+}
+
+.creatorDetails strong {
+    color: #1F2937;
+    font-weight: 600;
+}
+
+.insights {
+    background: linear-gradient(135deg, #0F0F23, #1a0b2e);
+    padding: 3rem;
+    border-radius: 25px;
+    margin-bottom: 4rem;
+    box-shadow: 0 20px 60px rgba(139, 92, 246, 0.2);
+}
+
+.insightsTitle {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.insightsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.insight {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    transition: all 0.3s ease;
+}
+
+.insight:hover {
+    background: rgba(139, 92, 246, 0.1);
+    transform: translateY(-5px);
+}
+
+.insightNumber {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+}
+
+.insightText {
+    color: #D1D5DB;
+    font-size: 1rem;
+}
+
+.swot {
+    margin-top: 4rem;
+}
+
+.swotTitle {
+    text-align: center;
+    font-size: 2rem;
+    color: #1F2937;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.swotGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.swotCard {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.swotCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.15);
+}
+
+.swotCardTitle {
+    font-size: 1.5rem;
+    color: #1F2937;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.swotList {
+    list-style: none;
+    padding: 0;
+}
+
+.swotList li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    color: #374151;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.swotList li:last-child {
+    border-bottom: none;
+}
+
+.swotList li::before {
+    content: '▸ ';
+    color: #8B5CF6;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .market {
+        padding: 4rem 1.5rem;
+    }
+
+    .chartsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .chartCard {
+        min-width: 0;
+    }
+
+    .creatorsSection {
+        padding: 2rem 1.5rem;
+    }
+
+    .creatorsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .insights {
+        padding: 2rem 1.5rem;
+    }
+
+    .insightsGrid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+    }
+
+    .swotGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.instagramBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+    padding: 0.9rem 1.5rem;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.instagramBtn:hover {
+    box-shadow: 0 6px 25px rgba(139, 92, 246, 0.5);
+    transform: translateY(-2px);
+}
+
+.instagramBtn svg {
+    font-size: 1.3rem;
+}
